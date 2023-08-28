@@ -1,0 +1,98 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 999;
+
+
+    .wrapper{
+            height:80px;
+            width: 70%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 24px;
+
+            .menu{
+                display: none;
+                font-size: 2rem;
+
+                button {
+                        background-color: #fff;
+                        border: none;
+                        outline: none;
+                        cursor: pointer;
+                        
+                    }
+            }
+
+            .left{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 500px;
+            }
+
+            .right{
+                font-size: 30px !important;
+            }
+
+            .link{
+                cursor: pointer;
+            }
+    }
+
+    @media (max-width: 1023px) {
+    
+             .wrapper {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+    
+                 .left {
+                     display: none;
+                 }
+    
+                 .left-mobile {
+                     position: absolute;
+                     display: block;
+                     top: 25px;
+                     right: 10px;
+                     transition: all 0.5s ease-out;
+                     width: 200px;
+                     z-index: 1;
+                     background-color: #fff;
+                     display: flex;
+                     align-items: center;
+                     justify-content: space-between;
+                     flex-direction: column;
+                     height: 250px;
+                    font-size: 20px;
+                    padding: 20px;
+                    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+                    opacity: 0.9;
+                 }
+    
+                 .menu {
+                     display: flex;
+                     align-items: center;
+                     justify-content: center;
+                     z-index: 4;
+                     font-size: 20px;
+                 }
+    
+                 .right {
+                         font-size: 24px !important;
+                         margin-left: 20px;
+                 }
+    
+             }
+         }
+}
