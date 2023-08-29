@@ -1,0 +1,139 @@
+.projects{
+    text-align: center;
+
+    .wrapper{
+            padding-top: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            p {
+                    font-weight: 600;
+                    color: rgb(71, 70, 70);
+                    font-size: 16px;
+                }
+            
+                h1 {
+                    font-size: 50px;
+                }
+
+                .projectCard.reversed {
+                    flex-direction: row-reverse;
+                }
+                               
+                
+
+
+        .projectCard{
+            display: flex;
+            gap: 20px;
+            padding: 50px 0px;
+            width: 80%;
+            border-bottom: 1px solid #7e7e7e;
+            
+           
+            .left{
+                flex: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                img{
+                    width: 400px;
+                    height: 200px;
+                    object-fit: cover;
+                    margin-top: 20px;
+                }
+
+                .btns{
+                    margin-top: 20px;
+                    display: flex;
+                    gap: 20px;
+
+                    button{
+                    a{
+                        color: white;
+                        text-decoration: none;
+                    }
+                    
+                    } 
+                
+                }
+            }
+
+            .right{
+                flex: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                
+
+                .desc{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    width: 70%;
+
+                    button{
+                        margin-top: 20px;
+                        background-color: #333 !important;
+                    }
+                }
+
+                .tools{
+                    list-style: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 20px;
+                    gap: 10px;
+                    
+
+                    span{
+                        border: 1px solid black;
+                        padding: 10px;
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+}
+
+     @media (max-width:1023px) {
+        .wrapper{
+
+            .projectCard{
+                flex-direction: column;  
+            }
+
+          .projectCard.reversed {
+                  flex-direction: column;
+           }
+        }
+     }
+
+    @media (max-width:767px) {
+        .wrapper{
+
+            .projectCard{
+                .left{
+                    
+                    img{
+                        width: 300px;
+                        height: 150px;
+                       
+                    }
+                }
+                .right{
+
+                    .tools{
+                        display: grid;
+                        grid-template-columns: repeat(2,1fr);
+                    }
+                }
+            }
+        }
+     }
+}

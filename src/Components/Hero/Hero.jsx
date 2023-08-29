@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Hero.scss';
-import { Link } from 'react-scroll';
+import { Link } from 'react-scroll'
 import { LinkedIn, GitHub } from '@mui/icons-material';
 
 const Hero = () => {
@@ -19,7 +19,7 @@ const Hero = () => {
     <div id='hero' className={`hero ${animate ? 'show-animation' : ''}`}>
       <div className="wrapper">
         <div className="left">
-          <img src="../../../public/assets/profile.jpg" alt="Profile" />
+          <img src="/assets/profile.jpg" alt="Profile" />
         </div>
         <div className="right">
           <p>Hello, I'm</p>
