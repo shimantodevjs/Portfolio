@@ -29,7 +29,7 @@ const Hero = () => {
             <a href={cvPdfUrl} target="_blank" rel="noopener noreferrer" download>
               <button className='cv'>Download CV</button>
             </a>
-            <Link to='contact' smooth={true} duration={500} className='link'>
+            <Link to='contact' smooth={true} duration={500} offset={-50} className='link'>
               <button className='info'>Contact Info</button>
             </Link>
           </div>
