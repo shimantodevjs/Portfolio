@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.aboutRussian{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+    .wrapper {
+        padding-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+
+        .back {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: #000;
+            text-decoration: none;
+        }
+
+        .container.reversed {
+            flex-direction: row-reverse;
+        }
+
+        .toTop {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            margin: 20px 0;
+            font-size: 20px;
+        }
+
+
+
+
+        .container {
+            display: flex;
+            gap: 20px;
+            padding: 50px 0px;
+            width: 80%;
+            border-bottom: 1px solid #7e7e7e;
+
+
+            .left {
+                flex: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                img {
+                    width: 300px;
+                    height: 300px;
+                    object-fit: contain;
+                    margin-top: 20px;
+                }
+            }
+
+            .right {
+                flex: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+
+                .desc {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    width: 70%;
+                    font-size: 18px;
+                }
+
+            }
+        }
+    }
+
+    @media (max-width:1023px) {
+        .wrapper {
+
+            .container {
+                flex-direction: column;
+            }
+
+            .container.reversed {
+                flex-direction: column;
+            }
+        }
+    }
+
+    @media (max-width:767px) {
+        .wrapper {
+
+            .container {
+                .left {
+
+                    img {
+                        width: 300px;
+                        height: 150px;
+
+                    }
+                }
+            }
+        }
+    }
+}

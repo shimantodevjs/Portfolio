@@ -1,5 +1,6 @@
 import './About.scss'
 import SchoolIcon from '@mui/icons-material/School';
+import { Link } from 'react-router-dom';
 
 const About = () => {
 
@@ -22,8 +23,12 @@ const About = () => {
                       <p>I'm a passionate front-end developer who loves turning ideas into interactive digital realities. My focus is on creating user-friendly web experiences that seamlessly merge design and functionality. With a foundation in ReactJs, I'm dedicated to making the web a more captivating place, <br /> "one pixel at a time"</p>
                       <h4>More about me</h4>
                       <div className="buttons">
+                      <Link to="/about-english">
                         <button>English</button>
-                        <button> Russian</button>
+                      </Link>
+                      <Link to="/about-russian">
+                        <button>Russian</button>
+                      </Link>
                       </div>
                   </div>
                </div>
