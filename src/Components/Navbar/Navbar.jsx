@@ -49,10 +49,8 @@ const Navbar = () => {
             Contact
           </Link>
         </div>
-        <div className='menu'>
-          <button onClick={handleMenuToggle}>
+        <div className='menu' onClick={handleMenuToggle}>
             {menuOpen ? <Close style={{ fontSize: '2.5rem' }} /> : <Menu style={{ fontSize: '2.5rem' }} />}
-          </button>
         </div>
       </div>
     </div>
