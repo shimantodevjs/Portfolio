@@ -46,7 +46,7 @@ const Navbar = () => {
             Projects
           </Link>
           <Link to='contact' smooth={true} duration={500} offset={-50} className='link'>
-            Contact
+            Contacts
           </Link>
         </div>
         <div className='menu' onClick={handleMenuToggle}>
