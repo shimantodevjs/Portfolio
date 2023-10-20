@@ -97,15 +97,15 @@ const Contact = () => {
             </div>
             <div className="extras">
               <Phone className='icons' />
-              +79991410912
+              +8801619513920
             </div>
             <div className="extras">
               <LocationOn className='icons' />
-              Nizhny Novgord, Russia
+                 Dhaka, Bangladesh
             </div>
           </div>
         </div>
-        <div className="footer">Thank you for your time 😄</div>
+        <div className="footer">Thank you for your time 😎</div>
       </div>
       {isSuccessMessageVisible && (
         <div className="success-popup">

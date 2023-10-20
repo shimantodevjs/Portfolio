@@ -107,6 +107,20 @@ const Skills = () => {
                   <p>Intermediate</p>
                </div>
             </div>
+            <div className="skill">
+               <VerifiedIcon style={{ color: 'blue' }} />
+               <div className="skillInfo">
+                  <h4>Tailwind CSS</h4>
+                  <p>Intermediate</p>
+               </div>
+            </div>
+            <div className="skill">
+               <VerifiedIcon style={{ color: 'blue' }} />
+               <div className="skillInfo">
+                  <h4>Bootstrap</h4>
+                  <p>Basic</p>
+               </div>
+            </div>
          </div>
          <p className='footer'>I am consistently engaged in a process of continuous learning, where I dedicate time each day to acquire new knowledge and skills. This commitment to personal growth allows me to expand my horizons and stay updated with the latest advancements.</p>
          </div>
