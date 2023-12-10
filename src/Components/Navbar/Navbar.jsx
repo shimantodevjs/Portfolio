@@ -35,7 +35,7 @@ const Navbar = () => {
             Nahid Hasan
           </Link>
         </div>
-        <div className={menuOpen ? 'left-mobile' : 'left'}>
+        <div className={menuOpen ? 'left-mobile open' : 'left'}>
           <Link to='about' smooth={true} duration={500}  className='link'>
             About
           </Link>
