@@ -54,7 +54,7 @@ const Skills = () => {
             <div className="skill">
                <VerifiedIcon style={{ color: 'blue' }} />
                <div className="skillInfo">
-                  <h4>Material UI</h4>
+                  <h4>Tailwind CSS</h4>
                   <p>Intermediate</p>
                </div>
             </div>
@@ -96,7 +96,7 @@ const Skills = () => {
             <div className="skill">
                <VerifiedIcon style={{ color: 'blue' }} />
                <div className="skillInfo">
-                  <h4>Rest,FetchApi/axios</h4>
+                  <h4>FetchApi/axios</h4>
                   <p>Intermediate</p>
                </div>
             </div>
@@ -110,14 +110,14 @@ const Skills = () => {
             <div className="skill">
                <VerifiedIcon style={{ color: 'blue' }} />
                <div className="skillInfo">
-                  <h4>Tailwind CSS</h4>
+                  <h4>Material UI</h4>
                   <p>Intermediate</p>
                </div>
             </div>
             <div className="skill">
                <VerifiedIcon style={{ color: 'blue' }} />
                <div className="skillInfo">
-                  <h4>Bootstrap</h4>
+                  <h4>Jest</h4>
                   <p>Basic</p>
                </div>
             </div>

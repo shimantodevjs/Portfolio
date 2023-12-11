@@ -1,7 +1,7 @@
 import './About.scss'
 import SchoolIcon from '@mui/icons-material/School';
 import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
-// import { Link } from 'react-router-dom';
+
 
 const About = () => {
 
