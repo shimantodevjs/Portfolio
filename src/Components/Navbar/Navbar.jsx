@@ -31,21 +31,22 @@ const Navbar = () => {
                 smooth={true} 
                 duration={500} 
                 className='link'
+                onClick={menuOpen ? handleMenuToggle : ""}
                 >
             Nahid Hasan
           </Link>
         </div>
         <div className={menuOpen ? 'left-mobile open' : 'left'}>
-          <Link to='about' smooth={true} duration={500}  className='link'>
+          <Link to='about' smooth={true} duration={500}  className='link' onClick={     menuOpen ? handleMenuToggle : ""}>
             About
           </Link>
-          <Link to='skills' smooth={true} duration={500} offset={-50} className='link'>
+          <Link to='skills' smooth={true} duration={500} offset={-50} className='link' onClick={menuOpen ? handleMenuToggle : ""}>
             Skills
           </Link>
-          <Link to='projects' smooth={true} duration={500} offset={-50} className='link'>
+          <Link to='projects' smooth={true} duration={500} offset={-50} className='link' onClick={menuOpen ? handleMenuToggle : ""}>
             Projects
           </Link>
-          <Link to='contact' smooth={true} duration={500} offset={-50} className='link'>
+          <Link to='contact' smooth={true} duration={500} offset={-50} className='link' onClick={menuOpen ? handleMenuToggle : ""}>
             Contacts
           </Link>
         </div>
