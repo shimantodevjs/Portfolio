@@ -1,11 +1,25 @@
 const data =[
-   {
+ {
     id:1,
+    title:'Chillox',
+    image:'/assets/chillox.png',
+    demo:'https://chillox.vercel.app/',
+    github:'https://github.com/shimantodevjs/Chillox',
+    desc:'Chillox: A sleek fast-food restaurant website, a React, Tailwind CSS, and Redux Toolkit-powered website. Effortlessly navigate our menu, switch between options , Add, delete & reset cart  for a seamless ordering experience.Redux Persist to store the state.  Discover the nearest Chillox outlet with map feature, and read customer reviews , Used Stripe for payment. I have made this complete website with the best of modern web technologies and common good practices.',
+    tools:{
+        tool1:'ReactJs',
+        tool2:'Redux/toolkit',
+        tool3: 'Tailwind CSS',
+        tool4: 'Fetch api'
+    }
+   },
+    {
+    id:2,
     title:'Zara clone',
     image:'/assets/zara.png',
     demo:'http://zara-shimantodevjs.surge.sh/',
     github:'https://github.com/shimantodevjs/zara-e-commerce.git',
-    desc:'Explore my portfolio-worthy Zara clone website ,Crafted using React.js, React ecosystem, Sass, and Redux/Toolkit, this project features a captivating hero slider, responsive design, and distinct sections for men and women fashion. Immerse yourself in the seamless product browsing experience, view details, and even manage your cart => adding, deleting, or resetting items. Witness innovation in online shopping through my Zara website, a showcase of my expertise in modern web development.',
+    desc:'Explore my portfolio-worthy Zara clone website ,Crafted using React.js, React ecosystem, Sass, and Redux/Toolkit, this project features a hero slider, responsive design, and  sections for men and women fashion. Immerse yourself in the seamless product browsing experience, view details, and even manage your cart => adding, deleting, or resetting items. Witness innovation in online shopping through my Zara website, a showcase of my expertise in modern web development.',
     tools:{
         tool1:'ReactJs',
         tool2:'Redux/toolkit',
@@ -14,7 +28,7 @@ const data =[
     }
    },
      {
-    id:2,
+    id:3,
     title:'Recipe search',
     image:'/assets/recipe.png',
     demo:'https://recipe-search-snowy.vercel.app/',
@@ -28,7 +42,7 @@ const data =[
     }
    },
      {
-    id:3,
+    id:4,
     title:'BigCartel',
     image:'/assets/bigcartel.png',
     demo:' https://online-shop-azure.vercel.app/',
@@ -41,7 +55,7 @@ const data =[
     }
    },
      {
-    id:4,
+    id:5,
     title:'Movie-Finder',
     image:'/assets/movie.png',
     demo:'http://movie-finder-shimantodevjs.surge.sh/',
@@ -54,7 +68,7 @@ const data =[
     }
    },
      {
-    id:5,
+    id:6,
     title:'Netflix-Homepage',
     image:'/assets/netflix.png',
     demo:'https://netflix-clone-shimantodevjs.vercel.app/',
