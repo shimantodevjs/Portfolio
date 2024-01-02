@@ -5,7 +5,7 @@ const data =[
     image:'/assets/chillox.png',
     demo:'https://chillox.vercel.app/',
     github:'https://github.com/shimantodevjs/Chillox',
-    desc:'Chillox: A sleek fast-food restaurant website, a React, Tailwind CSS, and Redux Toolkit-powered website. Effortlessly navigate our menu, switch between options , Add, delete & reset cart  for a seamless ordering experience.Redux Persist to store the state.  Discover the nearest Chillox outlet with map feature, and read customer reviews , Used Stripe for payment. I have made this complete website with the best of modern web technologies and common good practices.',
+    desc:'Chillox: A sleek fast-food restaurant website, a React, Tailwind CSS, and Redux Toolkit-powered website. Effortlessly navigate our menu, switch between options , Add, delete & reset cart  for a seamless ordering experience.Redux Persist to store the state.  Discover the nearest Chillox outlet with map feature, and read customer reviews.I have made this complete website with the best of modern web technologies and common good practices.',
     tools:{
         tool1:'ReactJs',
         tool2:'Redux/toolkit',
