@@ -52,7 +52,11 @@
              .wrapper {
                   
                  .container {
-                     grid-template-columns: 1fr;
+                     grid-template-columns:repeat((2, 1fr));
+
+                     .skill{
+                        scale: 0.9;
+                     }
                  }
 
                  .footer{
