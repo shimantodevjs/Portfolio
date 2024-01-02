@@ -4,7 +4,7 @@ import { Link } from 'react-scroll'
 import { LinkedIn, GitHub } from '@mui/icons-material';
 
 const Hero = () => {
-  const cvPdfUrl = "https://github.com/shimantodevjs/My-CV/blob/77034f68440813498b72bba60c117fc3a819b386/cv.pdf";
+  const cvPdfUrl = "https://raw.githubusercontent.com/shimantodevjs/My-CV/77034f68440813498b72bba60c117fc3a819b386/cv.pdf";
   const [animate, setAnimate] = useState(false);
 
   useEffect(() => {
