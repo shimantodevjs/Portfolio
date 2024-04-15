@@ -61,14 +61,14 @@ const Skills = () => {
             <div className="skill">
                <VerifiedIcon style={{ color: 'blue' }} />
                <div className="skillInfo">
-                  <h4>GIT</h4>
+                  <h4>GIT/Github</h4>
                   <p>Intermediate</p>
                </div>
             </div>
             <div className="skill">
                <VerifiedIcon style={{ color: 'blue' }} />
                <div className="skillInfo">
-                  <h4>ChatGTP</h4>
+                  <h4>Using AI</h4>
                   <p>Experienced</p>
                </div>
             </div>
@@ -117,7 +117,7 @@ const Skills = () => {
             <div className="skill">
                <VerifiedIcon style={{ color: 'blue' }} />
                <div className="skillInfo">
-                  <h4>Jest</h4>
+                  <h4>Node JS</h4>
                   <p>Basic</p>
                </div>
             </div>
