@@ -1,9 +1,7 @@
-import { useState} from 'react'
 import './Projects.scss'
 import data from './data'
 
 const Projects = () => {
-const [expandedDescriptions, setExpandedDescriptions] = useState({});
 
   const toggleDescription = (projectId) => {
     setExpandedDescriptions((prevExpanded) => ({
@@ -36,13 +34,7 @@ const [expandedDescriptions, setExpandedDescriptions] = useState({});
                  </div>
                  <div className='right'>
                    <div className='desc'>
-                       {expandedDescriptions[item.id] || item.desc.length <= 100
-                      ? item.desc: item.desc.substring(0, 200)}
-                       {item.desc.length > 200 && (
-                       <button onClick={() => toggleDescription(item.id)}>
-                           {expandedDescriptions[item.id] ? 'Show Less' : 'Show More'}
-                        </button>
-                        )}
+                           {item.desc.length <= 100 ? item.desc : item.desc.substring(0, 300)}
                    </div>
                    <div className="tools">                     
                            {Object.values(item.tools).map((tool, index) => (

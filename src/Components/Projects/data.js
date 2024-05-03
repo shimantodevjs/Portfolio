@@ -5,7 +5,7 @@ const data =[
     image:'/assets/chillox.png',
     demo:'https://chillox.vercel.app/',
     github:'https://github.com/shimantodevjs/Chillox',
-    desc:'Chillox: A sleek fast-food restaurant website, a React, Tailwind CSS, and Redux Toolkit-powered website. Effortlessly navigate our menu, switch between options , Add, delete & reset cart  for a seamless ordering experience.Redux Persist to store the state.  Discover the nearest Chillox outlet with map feature, and read customer reviews.I have made this complete website with the best of modern web technologies and common good practices.',
+    desc:'Chillox: A React, Tailwind CSS, and Redux Toolkit-powered fast-food website. Seamlessly navigate our menu, add, delete & reset cart for ordering ease. Redux Persist stores state. Discover nearest outlet with map feature & read reviews. Built with modern web tech & good practices.',
     tools:{
         tool1:'ReactJs',
         tool2:'Redux/toolkit',
@@ -19,7 +19,7 @@ const data =[
     image:'/assets/zara.png',
     demo:'http://zara-shimantodevjs.surge.sh/',
     github:'https://github.com/shimantodevjs/zara-e-commerce.git',
-    desc:'Explore my portfolio-worthy Zara clone website ,Crafted using React.js, React ecosystem, Sass, and Redux/Toolkit, this project features a hero slider, responsive design, and  sections for men and women fashion. Immerse yourself in the seamless product browsing experience, view details, and even manage your cart => adding, deleting, or resetting items. Witness innovation in online shopping through my Zara website, a showcase of my expertise in modern web development.',
+    desc:"Explore my Zara clone: React, Redux/Toolkit, Sass powered. Hero slider, responsive design, men & women sections. Seamless browsing, manage cart. Innovation in online shopping, showcasing modern web development expertise.",
     tools:{
         tool1:'ReactJs',
         tool2:'Redux/toolkit',
@@ -33,7 +33,7 @@ const data =[
     image:'/assets/recipe.png',
     demo:'https://recipe-search-snowy.vercel.app/',
     github:'https://github.com/shimantodevjs/Recipe-Search.git',
-    desc:'Introducing my recipe search website: a React-powered culinary hub. Combining Emotion for style, Material-UI for flair, and Edamam API for content, it is a one-stop destination to discover and explore diverse recipes. With user-friendly features like React Router and React Hook Form, navigating and interacting becomes second nature. Elevate your taste for web development with this flavorful addition to my portfolio',
+    desc:'Introducing my recipe search site: React-powered with Material-UI, Edamam API. Explore recipes easily with React Router, Hook Form. Elevate web dev with this portfolio worthy addition!',
     tools:{
         tool1:'ReactJs',
         tool2:'React-form',
@@ -41,29 +41,29 @@ const data =[
         tool4: 'fetch API'
     }
    },
-     {
+    {
     id:4,
-    title:'BigCartel',
-    image:'/assets/bigcartel.png',
-    demo:' https://online-shop-azure.vercel.app/',
-    github:'https://github.com/shimantodevjs/BigCartel_Online_shop.git',
-    desc:'Introducing my BigCartel website, brought to life using React.js. Seamlessly responsive and visually engaging, it leverages React Router Dom for seamless page transitions. With Material-UI and Emotion, the design stands out. Powered by React Hook Form, interactions are intuitive. This project exemplifies my web development skills, offering users an immersive online shopping journey',
+    title:'Movie-Finder',
+    image:'/assets/movie.png',
+    demo:'http://movie-finder-shimantodevjs.surge.sh/',
+    github:'https://github.com/shimantodevjs/Movie_Finder.git',
+    desc:'Presenting my dynamic movie finder website, skillfully built using React.js and a collection of modern dependencies. Leveraging Material-UI icons and components, along with Emotion for style, the project boasts a sleek ',
     tools:{
         tool1:'ReactJs',
-        tool2:'React-Router',
+        tool2:'Fetch API',
         tool3: 'Material UI'
     }
    },
      {
     id:5,
-    title:'Movie-Finder',
-    image:'/assets/movie.png',
-    demo:'http://movie-finder-shimantodevjs.surge.sh/',
-    github:'https://github.com/shimantodevjs/Movie_Finder.git',
-    desc:'Presenting my dynamic movie finder website, skillfully built using React.js and a collection of modern dependencies. Leveraging Material-UI icons and components, along with Emotion for style, the project boasts a sleek and responsive design. By fetching data from the OMDB API, each movie is showcased in a user-friendly layout. With React Hook Form, interactions are seamless, offering an engaging browsing experience. This project highlights my prowess in React development, delivering a captivating platform for movie enthusiasts to explore and discover.',
+    title:'BigCartel',
+    image:'/assets/bigcartel.png',
+    demo:' https://online-shop-azure.vercel.app/',
+    github:'https://github.com/shimantodevjs/BigCartel_Online_shop.git',
+    desc:'Introducing my BigCartel website: React-powered, responsive, and visually engaging. With React Router Dom for smooth experience, Material-UI for standout design, and React Hook Form for intuitive interactions, it showcases my web development skills, offering users an immersive shopping journey.',
     tools:{
         tool1:'ReactJs',
-        tool2:'Fetch API',
+        tool2:'React-Router',
         tool3: 'Material UI'
     }
    },
@@ -73,7 +73,7 @@ const data =[
     image:'/assets/netflix.png',
     demo:'https://netflix-clone-shimantodevjs.vercel.app/',
     github:'https://github.com/shimantodevjs/Netflix-Clone.git',
-    desc:'I have designed a dynamic Netflix homepage replica using HTML, CSS, and JavaScript. This project mimics the style and functionality of the original Netflix homepage, allowing users to seamlessly toggle between different services with the power of JavaScript. This project showcases my mastery of front-end technologies, demonstrating a responsive and interactive web design that captures the essence of the Netflix experience',
+    desc:'I have crafted a dynamic Netflix replica using HTML, CSS, and JavaScript. Seamlessly toggle between services, showcasing mastery of front-end technologies. Responsive, interactive design captures the Netflix essence.',
     tools:{
         tool1:'HTML',
         tool2:'CSS',
