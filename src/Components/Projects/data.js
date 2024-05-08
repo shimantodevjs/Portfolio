@@ -43,15 +43,15 @@ const data =[
    },
     {
     id:4,
-    title:'Movie-Finder',
-    image:'/assets/movie.png',
-    demo:'http://movie-finder-shimantodevjs.surge.sh/',
-    github:'https://github.com/shimantodevjs/Movie_Finder.git',
-    desc:'Presenting my dynamic movie finder website, skillfully built using React.js and a collection of modern dependencies. Leveraging Material-UI icons and components, along with Emotion for style, the project boasts a sleek ',
+    title:'Google Gemini AI Clone',
+    image:'/assets/gemini.png',
+    demo:'https://googlegemini-shimantodevj.vercel.app/',
+    github:'https://github.com/shimantodevjs/Google-Gemini-Clone.git',
+    desc:'Experience the power of Gemini, a Google AI clone built with ReactJS, GeminiAPI, and Context API. Seamlessly search, receive accurate results, and interact with a user-friendly interface,check recent search and more.',
     tools:{
         tool1:'ReactJs',
-        tool2:'Fetch API',
-        tool3: 'Material UI'
+        tool2:'Context API',
+        tool3: 'Gemini API'
     }
    },
      {
